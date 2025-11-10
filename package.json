@@ -1,0 +1,16 @@
+{
+  "name": "site-iframe-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "sanitize-html": "^2.11.0",
+    "express-rate-limit": "^7.3.0",
+    "helmet": "^7.1.0"
+  },
+  "engines": { "node": ">=18" }
+}
